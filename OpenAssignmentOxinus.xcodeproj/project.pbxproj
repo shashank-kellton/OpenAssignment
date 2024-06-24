@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F11FEBD2C259DB50016D5CB /* DogsBreedDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEBC2C259DB50016D5CB /* DogsBreedDetailModel.swift */; };
+		4F11FEBF2C259DCA0016D5CB /* DogsBreedDetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEBE2C259DCA0016D5CB /* DogsBreedDetailService.swift */; };
+		4F11FEC12C259DDB0016D5CB /* DogsBreedDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEC02C259DDB0016D5CB /* DogsBreedDetailProtocol.swift */; };
+		4F11FEC32C259DF80016D5CB /* DogsBreedDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEC22C259DF80016D5CB /* DogsBreedDetailVC.swift */; };
+		4F11FEC52C259E170016D5CB /* DogsBreedDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEC42C259E160016D5CB /* DogsBreedDetailViewModel.swift */; };
+		4F11FECA2C25A7280016D5CB /* DogImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11FEC82C25A7280016D5CB /* DogImageCollectionViewCell.swift */; };
+		4F11FECB2C25A7280016D5CB /* DogImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F11FEC92C25A7280016D5CB /* DogImageCollectionViewCell.xib */; };
 		4F24A2A22C255A6400B177AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2A12C255A6400B177AB /* AppDelegate.swift */; };
-		4F24A2A42C255A6400B177AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2A32C255A6400B177AB /* SceneDelegate.swift */; };
-		4F24A2A62C255A6400B177AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2A52C255A6400B177AB /* ViewController.swift */; };
 		4F24A2A92C255A6400B177AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24A2A72C255A6400B177AB /* Main.storyboard */; };
 		4F24A2AB2C255A6500B177AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F24A2AA2C255A6500B177AB /* Assets.xcassets */; };
 		4F24A2AE2C255A6500B177AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F24A2AC2C255A6500B177AB /* LaunchScreen.storyboard */; };
 		4F24A2B92C255A6500B177AB /* OpenAssignmentOxinusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2B82C255A6500B177AB /* OpenAssignmentOxinusTests.swift */; };
 		4F24A2C32C255A6500B177AB /* OpenAssignmentOxinusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2C22C255A6500B177AB /* OpenAssignmentOxinusUITests.swift */; };
 		4F24A2C52C255A6500B177AB /* OpenAssignmentOxinusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24A2C42C255A6500B177AB /* OpenAssignmentOxinusUITestsLaunchTests.swift */; };
+		4F4591EA2C295C010014DEEA /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4591E92C295C010014DEEA /* FavoriteVC.swift */; };
+		4F4591EC2C2974400014DEEA /* FavoriteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4591EB2C2974400014DEEA /* FavoriteClass.swift */; };
+		4F4591EF2C299A0E0014DEEA /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4591EE2C299A0E0014DEEA /* Alert.swift */; };
+		4F4591F12C299AC40014DEEA /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4591F02C299AC40014DEEA /* AppStrings.swift */; };
+		4F4591F32C299E310014DEEA /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4591F22C299E310014DEEA /* UIColor+Additions.swift */; };
+		4FAB1FF32C255C2400A71062 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FF12C255C2400A71062 /* APIManager.swift */; };
+		4FAB1FF42C255C2400A71062 /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FF22C255C2400A71062 /* Reach.swift */; };
+		4FAB1FF92C255D3400A71062 /* DogsBreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FF82C255D3400A71062 /* DogsBreedModel.swift */; };
+		4FAB1FFB2C255D4F00A71062 /* DogsBreedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FFA2C255D4F00A71062 /* DogsBreedService.swift */; };
+		4FAB1FFD2C255D6900A71062 /* DogsBreedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FFC2C255D6900A71062 /* DogsBreedProtocol.swift */; };
+		4FAB1FFF2C255D8100A71062 /* DogsBreedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB1FFE2C255D8100A71062 /* DogsBreedVC.swift */; };
+		4FAB20012C255D9700A71062 /* DogsBreedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB20002C255D9700A71062 /* DogsBreedViewModel.swift */; };
+		4FAB20052C25610D00A71062 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB20042C25610D00A71062 /* Constants.swift */; };
+		4FAB200D2C25677E00A71062 /* DogsBreedCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB200B2C25677E00A71062 /* DogsBreedCategoryCell.swift */; };
+		4FAB200E2C25677E00A71062 /* DogsBreedCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB200C2C25677E00A71062 /* DogsBreedCategoryCell.xib */; };
+		4FAB20112C2567AA00A71062 /* DogsBreedSubCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB200F2C2567AA00A71062 /* DogsBreedSubCategoryCell.swift */; };
+		4FAB20122C2567AA00A71062 /* DogsBreedSubCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FAB20102C2567AA00A71062 /* DogsBreedSubCategoryCell.xib */; };
+		4FAB20142C256A6D00A71062 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB20132C256A6D00A71062 /* APIError.swift */; };
+		5600E75DC6C9C531B2B38EAC /* Pods_OpenAssignmentOxinus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814552547B05F39D7B3E7816 /* Pods_OpenAssignmentOxinus.framework */; };
+		F7EE665D33D71450D56A8ECC /* Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DE4BF2960000F172F589AF /* Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework */; };
+		F86D35288BA6ACAB39A6EB87 /* Pods_OpenAssignmentOxinusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBD8840514D541D38CB845F /* Pods_OpenAssignmentOxinusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46CDBF57F80B1C24ABAB340D /* Pods-OpenAssignmentOxinusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinusTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinusTests/Pods-OpenAssignmentOxinusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F11FEBC2C259DB50016D5CB /* DogsBreedDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedDetailModel.swift; sourceTree = "<group>"; };
+		4F11FEBE2C259DCA0016D5CB /* DogsBreedDetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedDetailService.swift; sourceTree = "<group>"; };
+		4F11FEC02C259DDB0016D5CB /* DogsBreedDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedDetailProtocol.swift; sourceTree = "<group>"; };
+		4F11FEC22C259DF80016D5CB /* DogsBreedDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedDetailVC.swift; sourceTree = "<group>"; };
+		4F11FEC42C259E160016D5CB /* DogsBreedDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedDetailViewModel.swift; sourceTree = "<group>"; };
+		4F11FEC82C25A7280016D5CB /* DogImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F11FEC92C25A7280016D5CB /* DogImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		4F24A29E2C255A6400B177AB /* OpenAssignmentOxinus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAssignmentOxinus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F24A2A12C255A6400B177AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F24A2A32C255A6400B177AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F24A2A52C255A6400B177AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F24A2A82C255A6400B177AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F24A2AA2C255A6500B177AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F24A2AD2C255A6500B177AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +81,32 @@
 		4F24A2BE2C255A6500B177AB /* OpenAssignmentOxinusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAssignmentOxinusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F24A2C22C255A6500B177AB /* OpenAssignmentOxinusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAssignmentOxinusUITests.swift; sourceTree = "<group>"; };
 		4F24A2C42C255A6500B177AB /* OpenAssignmentOxinusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAssignmentOxinusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F4591E92C295C010014DEEA /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		4F4591EB2C2974400014DEEA /* FavoriteClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteClass.swift; sourceTree = "<group>"; };
+		4F4591EE2C299A0E0014DEEA /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4F4591F02C299AC40014DEEA /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		4F4591F22C299E310014DEEA /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		4FAB1FF12C255C2400A71062 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4FAB1FF22C255C2400A71062 /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
+		4FAB1FF82C255D3400A71062 /* DogsBreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedModel.swift; sourceTree = "<group>"; };
+		4FAB1FFA2C255D4F00A71062 /* DogsBreedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedService.swift; sourceTree = "<group>"; };
+		4FAB1FFC2C255D6900A71062 /* DogsBreedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedProtocol.swift; sourceTree = "<group>"; };
+		4FAB1FFE2C255D8100A71062 /* DogsBreedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedVC.swift; sourceTree = "<group>"; };
+		4FAB20002C255D9700A71062 /* DogsBreedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedViewModel.swift; sourceTree = "<group>"; };
+		4FAB20042C25610D00A71062 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4FAB200B2C25677E00A71062 /* DogsBreedCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedCategoryCell.swift; sourceTree = "<group>"; };
+		4FAB200C2C25677E00A71062 /* DogsBreedCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogsBreedCategoryCell.xib; sourceTree = "<group>"; };
+		4FAB200F2C2567AA00A71062 /* DogsBreedSubCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsBreedSubCategoryCell.swift; sourceTree = "<group>"; };
+		4FAB20102C2567AA00A71062 /* DogsBreedSubCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogsBreedSubCategoryCell.xib; sourceTree = "<group>"; };
+		4FAB20132C256A6D00A71062 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		4FB8272CC817CFF38816D4D6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		655C13D65BCD736832E8DCE5 /* Pods-OpenAssignmentOxinus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinus.debug.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinus/Pods-OpenAssignmentOxinus.debug.xcconfig"; sourceTree = "<group>"; };
+		7D43D7283DD78BE03DA4B9C6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF3F16E003D08ACD19F380A /* Pods-OpenAssignmentOxinusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinusTests.release.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinusTests/Pods-OpenAssignmentOxinusTests.release.xcconfig"; sourceTree = "<group>"; };
+		814552547B05F39D7B3E7816 /* Pods_OpenAssignmentOxinus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenAssignmentOxinus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DE4BF2960000F172F589AF /* Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E967C01F18AC3DB899B4E79D /* Pods-OpenAssignmentOxinus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAssignmentOxinus.release.xcconfig"; path = "Target Support Files/Pods-OpenAssignmentOxinus/Pods-OpenAssignmentOxinus.release.xcconfig"; sourceTree = "<group>"; };
+		EDBD8840514D541D38CB845F /* Pods_OpenAssignmentOxinusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenAssignmentOxinusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5600E75DC6C9C531B2B38EAC /* Pods_OpenAssignmentOxinus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86D35288BA6ACAB39A6EB87 /* Pods_OpenAssignmentOxinusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EE665D33D71450D56A8ECC /* Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F11FEBB2C259D8B0016D5CB /* DogsBreedDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4F11FEBC2C259DB50016D5CB /* DogsBreedDetailModel.swift */,
+				4F11FEBE2C259DCA0016D5CB /* DogsBreedDetailService.swift */,
+				4F11FEC02C259DDB0016D5CB /* DogsBreedDetailProtocol.swift */,
+				4F11FEC22C259DF80016D5CB /* DogsBreedDetailVC.swift */,
+				4F11FEC42C259E160016D5CB /* DogsBreedDetailViewModel.swift */,
+			);
+			path = DogsBreedDetail;
+			sourceTree = "<group>";
+		};
 		4F24A2952C255A6400B177AB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +156,8 @@
 				4F24A2B72C255A6500B177AB /* OpenAssignmentOxinusTests */,
 				4F24A2C12C255A6500B177AB /* OpenAssignmentOxinusUITests */,
 				4F24A29F2C255A6400B177AB /* Products */,
+				AB4E049D62B88021674E052E /* Pods */,
+				E6FCA226F7C1C02B85553DAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +174,18 @@
 		4F24A2A02C255A6400B177AB /* OpenAssignmentOxinus */ = {
 			isa = PBXGroup;
 			children = (
+				4F4591E82C295BE30014DEEA /* Favorite */,
+				4F11FEBB2C259D8B0016D5CB /* DogsBreedDetail */,
+				4FAB20062C25661600A71062 /* TableViewCell */,
+				4FAB1FF72C255D1900A71062 /* DogsBreed */,
+				4F24A2D12C255A7300B177AB /* Network */,
+				4F4591ED2C2999E50014DEEA /* Utils */,
 				4F24A2A12C255A6400B177AB /* AppDelegate.swift */,
-				4F24A2A32C255A6400B177AB /* SceneDelegate.swift */,
-				4F24A2A52C255A6400B177AB /* ViewController.swift */,
 				4F24A2A72C255A6400B177AB /* Main.storyboard */,
 				4F24A2AA2C255A6500B177AB /* Assets.xcassets */,
 				4F24A2AC2C255A6500B177AB /* LaunchScreen.storyboard */,
 				4F24A2AF2C255A6500B177AB /* Info.plist */,
+				4FAB20042C25610D00A71062 /* Constants.swift */,
 			);
 			path = OpenAssignmentOxinus;
 			sourceTree = "<group>";
@@ -127,6 +207,83 @@
 			path = OpenAssignmentOxinusUITests;
 			sourceTree = "<group>";
 		};
+		4F24A2D12C255A7300B177AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB20132C256A6D00A71062 /* APIError.swift */,
+				4FAB1FF12C255C2400A71062 /* APIManager.swift */,
+				4FAB1FF22C255C2400A71062 /* Reach.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4F4591E82C295BE30014DEEA /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				4F4591E92C295C010014DEEA /* FavoriteVC.swift */,
+				4F4591EB2C2974400014DEEA /* FavoriteClass.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		4F4591ED2C2999E50014DEEA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F4591F22C299E310014DEEA /* UIColor+Additions.swift */,
+				4F4591EE2C299A0E0014DEEA /* Alert.swift */,
+				4F4591F02C299AC40014DEEA /* AppStrings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4FAB1FF72C255D1900A71062 /* DogsBreed */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB1FF82C255D3400A71062 /* DogsBreedModel.swift */,
+				4FAB1FFA2C255D4F00A71062 /* DogsBreedService.swift */,
+				4FAB1FFC2C255D6900A71062 /* DogsBreedProtocol.swift */,
+				4FAB1FFE2C255D8100A71062 /* DogsBreedVC.swift */,
+				4FAB20002C255D9700A71062 /* DogsBreedViewModel.swift */,
+			);
+			path = DogsBreed;
+			sourceTree = "<group>";
+		};
+		4FAB20062C25661600A71062 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4FAB200B2C25677E00A71062 /* DogsBreedCategoryCell.swift */,
+				4FAB200C2C25677E00A71062 /* DogsBreedCategoryCell.xib */,
+				4FAB200F2C2567AA00A71062 /* DogsBreedSubCategoryCell.swift */,
+				4FAB20102C2567AA00A71062 /* DogsBreedSubCategoryCell.xib */,
+				4F11FEC82C25A7280016D5CB /* DogImageCollectionViewCell.swift */,
+				4F11FEC92C25A7280016D5CB /* DogImageCollectionViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AB4E049D62B88021674E052E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				655C13D65BCD736832E8DCE5 /* Pods-OpenAssignmentOxinus.debug.xcconfig */,
+				E967C01F18AC3DB899B4E79D /* Pods-OpenAssignmentOxinus.release.xcconfig */,
+				7D43D7283DD78BE03DA4B9C6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.debug.xcconfig */,
+				4FB8272CC817CFF38816D4D6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.release.xcconfig */,
+				46CDBF57F80B1C24ABAB340D /* Pods-OpenAssignmentOxinusTests.debug.xcconfig */,
+				7EF3F16E003D08ACD19F380A /* Pods-OpenAssignmentOxinusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6FCA226F7C1C02B85553DAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814552547B05F39D7B3E7816 /* Pods_OpenAssignmentOxinus.framework */,
+				B3DE4BF2960000F172F589AF /* Pods_OpenAssignmentOxinus_OpenAssignmentOxinusUITests.framework */,
+				EDBD8840514D541D38CB845F /* Pods_OpenAssignmentOxinusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F24A2C82C255A6500B177AB /* Build configuration list for PBXNativeTarget "OpenAssignmentOxinus" */;
 			buildPhases = (
+				97E6D415EBBF9195A92B39F2 /* [CP] Check Pods Manifest.lock */,
 				4F24A29A2C255A6400B177AB /* Sources */,
 				4F24A29B2C255A6400B177AB /* Frameworks */,
 				4F24A29C2C255A6400B177AB /* Resources */,
+				EEFC7A67DE4757AE1DC4BF04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F24A2CB2C255A6500B177AB /* Build configuration list for PBXNativeTarget "OpenAssignmentOxinusTests" */;
 			buildPhases = (
+				D2E58163E5B3F9F9FB264E1D /* [CP] Check Pods Manifest.lock */,
 				4F24A2B02C255A6500B177AB /* Sources */,
 				4F24A2B12C255A6500B177AB /* Frameworks */,
 				4F24A2B22C255A6500B177AB /* Resources */,
@@ -169,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F24A2CE2C255A6500B177AB /* Build configuration list for PBXNativeTarget "OpenAssignmentOxinusUITests" */;
 			buildPhases = (
+				799893CFC1BAD61E4D29B30D /* [CP] Check Pods Manifest.lock */,
 				4F24A2BA2C255A6500B177AB /* Sources */,
 				4F24A2BB2C255A6500B177AB /* Frameworks */,
 				4F24A2BC2C255A6500B177AB /* Resources */,
+				0809287F77E4C8044255792B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +393,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FAB200E2C25677E00A71062 /* DogsBreedCategoryCell.xib in Resources */,
 				4F24A2AE2C255A6500B177AB /* LaunchScreen.storyboard in Resources */,
+				4FAB20122C2567AA00A71062 /* DogsBreedSubCategoryCell.xib in Resources */,
 				4F24A2AB2C255A6500B177AB /* Assets.xcassets in Resources */,
 				4F24A2A92C255A6400B177AB /* Main.storyboard in Resources */,
+				4F11FECB2C25A7280016D5CB /* DogImageCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +418,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0809287F77E4C8044255792B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799893CFC1BAD61E4D29B30D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E6D415EBBF9195A92B39F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenAssignmentOxinus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E58163E5B3F9F9FB264E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenAssignmentOxinusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEFC7A67DE4757AE1DC4BF04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus/Pods-OpenAssignmentOxinus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus/Pods-OpenAssignmentOxinus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenAssignmentOxinus/Pods-OpenAssignmentOxinus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F24A29A2C255A6400B177AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F24A2A62C255A6400B177AB /* ViewController.swift in Sources */,
+				4F11FEBD2C259DB50016D5CB /* DogsBreedDetailModel.swift in Sources */,
+				4FAB1FF32C255C2400A71062 /* APIManager.swift in Sources */,
+				4F11FECA2C25A7280016D5CB /* DogImageCollectionViewCell.swift in Sources */,
+				4F11FEBF2C259DCA0016D5CB /* DogsBreedDetailService.swift in Sources */,
+				4F4591EC2C2974400014DEEA /* FavoriteClass.swift in Sources */,
+				4FAB20112C2567AA00A71062 /* DogsBreedSubCategoryCell.swift in Sources */,
+				4FAB1FFF2C255D8100A71062 /* DogsBreedVC.swift in Sources */,
+				4FAB200D2C25677E00A71062 /* DogsBreedCategoryCell.swift in Sources */,
+				4FAB1FF42C255C2400A71062 /* Reach.swift in Sources */,
+				4FAB20012C255D9700A71062 /* DogsBreedViewModel.swift in Sources */,
+				4FAB1FFD2C255D6900A71062 /* DogsBreedProtocol.swift in Sources */,
 				4F24A2A22C255A6400B177AB /* AppDelegate.swift in Sources */,
-				4F24A2A42C255A6400B177AB /* SceneDelegate.swift in Sources */,
+				4F4591F12C299AC40014DEEA /* AppStrings.swift in Sources */,
+				4FAB20052C25610D00A71062 /* Constants.swift in Sources */,
+				4F11FEC12C259DDB0016D5CB /* DogsBreedDetailProtocol.swift in Sources */,
+				4F4591EA2C295C010014DEEA /* FavoriteVC.swift in Sources */,
+				4F4591F32C299E310014DEEA /* UIColor+Additions.swift in Sources */,
+				4FAB1FFB2C255D4F00A71062 /* DogsBreedService.swift in Sources */,
+				4F4591EF2C299A0E0014DEEA /* Alert.swift in Sources */,
+				4F11FEC32C259DF80016D5CB /* DogsBreedDetailVC.swift in Sources */,
+				4F11FEC52C259E170016D5CB /* DogsBreedDetailViewModel.swift in Sources */,
+				4FAB1FF92C255D3400A71062 /* DogsBreedModel.swift in Sources */,
+				4FAB20142C256A6D00A71062 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +720,7 @@
 		};
 		4F24A2C92C255A6500B177AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655C13D65BCD736832E8DCE5 /* Pods-OpenAssignmentOxinus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +748,7 @@
 		};
 		4F24A2CA2C255A6500B177AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E967C01F18AC3DB899B4E79D /* Pods-OpenAssignmentOxinus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +776,7 @@
 		};
 		4F24A2CC2C255A6500B177AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CDBF57F80B1C24ABAB340D /* Pods-OpenAssignmentOxinusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +796,7 @@
 		};
 		4F24A2CD2C255A6500B177AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF3F16E003D08ACD19F380A /* Pods-OpenAssignmentOxinusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +816,7 @@
 		};
 		4F24A2CF2C255A6500B177AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D43D7283DD78BE03DA4B9C6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +834,7 @@
 		};
 		4F24A2D02C255A6500B177AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB8272CC817CFF38816D4D6 /* Pods-OpenAssignmentOxinus-OpenAssignmentOxinusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

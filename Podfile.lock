@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.8.1)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - TTGSnackbar (1.12.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDWebImage
+  - SVProgressHUD
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - SVProgressHUD
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  TTGSnackbar: 8e7650b9b1f5f44e40228473455986f5c12213c7
+
+PODFILE CHECKSUM: c63d05e4a9caacea94b262b24fa437d37e1b75c1
+
+COCOAPODS: 1.14.3
