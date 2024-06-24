@@ -72,6 +72,8 @@ class DogsBreedDetailVC: UIViewController {
         }
         
         self.viewModel.serverErrorStatus = {
+            Alert.showSnackBar(message: AppStrings.someThingWentWrong.localized)
+
             SVProgressHUD.dismiss();
             print("Server Error / Unknown Error")
             if self.viewModel.apiErrorModel?.statusCode == 401 {
